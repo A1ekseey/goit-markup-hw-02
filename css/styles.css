@@ -77,7 +77,6 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #404bbf;
-
   cursor: pointer;
 }
 
@@ -185,13 +184,13 @@ a {
   }
   
   .footer-logo-web {
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #f4f4fd;
   }
   
 
