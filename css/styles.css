@@ -1,6 +1,9 @@
 body {
-  font-family: "Roboto", "Raleway"  sans-serif;
-  background-color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", "Releway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
 }
 
 ul {
@@ -13,17 +16,24 @@ a {
 
 /*--------------------- HEADER ------------------ */
 
-.header-logo {
+.header-logo-studio {
+  font-family: "Releway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo-web {
+  font-family: "Releway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-}
-
-.header-logo-web {
-  color: #4d5ae5;
 }
 
 .header-menu-item {
@@ -40,6 +50,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 /*--------------------------------------- */
@@ -53,10 +64,10 @@ a {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  text-align: center ;
+  text-align: center;
   color: #fff;
 }
- 
+
 .hero-btn {
   font-family: "Roboto", sans-serif;
   font-family: inherit;
@@ -65,7 +76,8 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #404BBF;
+  background-color: #404bbf;
+
   cursor: pointer;
 }
 
@@ -94,7 +106,7 @@ a {
 }
 
 .our-team {
-    background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .our-team-title {
   font-weight: 700;
@@ -163,16 +175,26 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-.footer-logo-web {
-  color: #4d5ae5;
-}
+    font-family: "Releway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  
+  .footer-logo-web {
+    font-family: "Releway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+  }
+  
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
