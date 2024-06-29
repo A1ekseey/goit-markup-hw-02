@@ -36,7 +36,7 @@ a {
   color: #4d5ae5;
 }
 
-.header-menu-item {
+.header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -44,14 +44,31 @@ a {
   color: #2e2f42;
 }
 
-.header-address-list {
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.and {
+    font-style: normal;
+}
+
+.header-address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
-  
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404bbf
+}
+
+.and {
+    font-style: normal;
 }
 
 /*--------------------------------------- */
@@ -77,14 +94,15 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
-
-.review-btn:hover,
-.review-btn:focus {
-  background-color: #404bbf;
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF
 }
+
+
 
 .features {
   background-color: #fff;
@@ -124,10 +142,11 @@ a {
 }
 
 .our-team-list {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .our-team-iteam {
+  background-color: #ffffff;
 }
 
 .our-team-name {
@@ -145,12 +164,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-
-
-
-
-
 
 .our-portfolio {
   background-color: white;
@@ -197,6 +210,7 @@ a {
 }
 
 .footer-logo-web {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
