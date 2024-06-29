@@ -50,6 +50,10 @@ a {
 }
 
 .and {
+  font-style: normal;
+}
+
+.header-address {
     font-style: normal;
 }
 
@@ -59,20 +63,16 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
-
 
 .header-address-link:hover,
 .header-address-link:focus {
-    color: #404bbf
-}
-
-.header-address-link {
-    font-style: normal;
+  color: #404bbf;
 }
 
 .and {
-    font-style: normal;
+  font-style: normal;
 }
 
 /*--------------------------------------- */
@@ -102,11 +102,9 @@ a {
   cursor: pointer;
 }
 .hero-btn:hover,
-.hero-btn:focus{
-    background-color: #404BBF
+.hero-btn:focus {
+  background-color: #404bbf;
 }
-
-
 
 .features {
   background-color: #fff;
@@ -202,10 +200,10 @@ a {
 
 .footer {
   background-color: #2e2f42;
-  font-family: "Releway", sans-serif;
 }
+
 .footer-logo {
-  
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -215,7 +213,7 @@ a {
 }
 
 .footer-logo-web {
- 
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -225,6 +223,7 @@ a {
 }
 
 .footer-text {
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
