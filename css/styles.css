@@ -58,13 +58,17 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  font-style: normal;
   color: #434455;
 }
+
 
 .header-address-link:hover,
 .header-address-link:focus {
     color: #404bbf
+}
+
+.header-address-link {
+    font-style: normal;
 }
 
 .and {
@@ -198,9 +202,10 @@ a {
 
 .footer {
   background-color: #2e2f42;
+  font-family: "Releway", sans-serif;
 }
 .footer-logo {
-  font-family: "Releway", sans-serif;
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -210,7 +215,7 @@ a {
 }
 
 .footer-logo-web {
-  font-family: "Raleway", sans-serif;
+ 
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -220,7 +225,6 @@ a {
 }
 
 .footer-text {
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
